@@ -1,15 +1,7 @@
-def book_info(bookID,bookTitle,authorName,yearOfPublication):
-  return(f"Book Id:{bookID}\n"
-         f"Book Title:{bookTitle}\n"
-         f"Author Name:{authorName}\n"
-         f"Year of Publication:{yearOfPublication}\n"
-)
-  
-if __name__=="__main__":
-      bookID=101
-      bookTitle="Geetaanjali"
-      authorName="Rabindranath Tagore"
-      yearOfPublication=1986
-      print("Book Details:")
-      print(book_info(bookID,bookTitle,authorName,yearOfPublication))
-      
+def book_info(book_id, book_title, author_name, year_of_publication):
+    return (
+        f"Book ID={book_id}\n"
+        f"Book Title={book_title}\n"
+        f"Author Name={author_name}\n"
+        f"Year of Publication={year_of_publication}"
+    )
